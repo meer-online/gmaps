@@ -8,6 +8,6 @@ class Contact < ActiveRecord::Base
   end
   
   def gmaps4rails_infowindow
-  		"<h4>#{name}</h4>" << "<h4>#{address}</h4>"
+  		"<h5>#{name}</h5>" << "<h6>#{address}</h6>"
   end
 end
